@@ -1,0 +1,40 @@
+.header {
+    @apply .h-16 .p-3 .w-full .shadow-md .inline-flex .items-center
+}
+.header_menu {
+    @apply .text-2xl .m-3
+}
+.header_logo {
+    @apply .ml-2
+}
+.header img {
+    @apply .w-40
+}
+.header i {
+    @apply .text-gray-900
+}
+
+.menu li {
+    @apply .pl-5 .pt-3
+}
+
+.categories li {
+    @apply .ml-6
+}
+.categories li a:hover {
+    @apply .text-blue-400
+}
+
+
+.nav-btn {
+    @apply .ml-auto .inline-flex
+}
+.search {
+    @apply .ml-auto .bg-gray-200 .rounded-lg .p-2 .hidden
+}
+.nav-btn button {
+    @apply .ml-3 .w-10 .pt-2 .pb-2 .text-lg .rounded-full .bg-gray-300
+}
+.nav-btn button:hover {
+    @apply .bg-gray-300 .text-blue-400
+}
